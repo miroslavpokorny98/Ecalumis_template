@@ -1,0 +1,19 @@
+.heroImage {
+    padding-top: 113px;
+    width: 100%;
+    height: calc(100vh-113px);
+
+    .container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        @include manrope72();
+        max-width: 817px;
+        text-align: center;
+    }
+}
